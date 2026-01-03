@@ -15,7 +15,6 @@ async function checkWeather(city) {
     const data = await response.json();
     console.log(data);
 
-    // show weather, hide error
     document.querySelector(".weather").style.display = "block";
     document.querySelector(".error").style.display = "none";
 
